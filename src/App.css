@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* Main */
+.main-nav {
+  width: 100%;
+  height: 50vh;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* SignUp */
+.userForm-wrapper {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+/* .page-title */
+.page-title {
+  margin: 2rem 0;
+  text-align: center;
+}
+.input-group .input-group-text input:read-only {
+  background-color: #fff !important;
+}
+
+
+/* UserList */
+.userList-wrapper {
+  width: 880px;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+.userList .card:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+.userList .card-title {
+  font-weight: 100;
+  font-size: 0.9rem;
+  color: #444;
+}
+.userList .card-title strong {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.userList .card-link {
+  font-weight: 100;
+  color: #444;
+}
+.userList .card-link:hover {
+  text-decoration: underline;
+}
+
+
+
+@media (max-width:1200px) {
+  .userForm-wrapper {
+    width: 100%;
+  }
+  .userList-wrapper {
+    width: 100%;
+  }
+}
