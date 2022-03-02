@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Main() {
+
+    console.log('Test Jenkins!');
+
     return ( 
         <div className='main'>
             <div className='container'>
