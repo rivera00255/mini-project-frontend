@@ -2,12 +2,13 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import UserForm from '../ui/UserForm';
+import { API_URL } from '../../config';
 
 function Edit() {
 
     const {id} = useParams();
 
-    const getUrl = `http://localhost:8080/api/user/${id}`;
+    const getUrl = `${API_URL}api/user/${id}`;
 
     const [userInfo, setUserInfo] = useState();
 

@@ -1,10 +1,11 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import UserCard from '../ui/UserCard';
+import { API_URL } from '../../config';
 
 function UserList() {
 
-    const url = 'http://localhost:8080/api/user/list';
+    const url = `${API_URL}api/user/list`;
 
     const [userList, setUserList] = useState();
 

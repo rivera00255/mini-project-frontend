@@ -1,10 +1,11 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { API_URL } from '../../config';
 
 function UserForm({id, user}) {
 
-    let url = 'http://localhost:8080/api/user';
+    let url = `${API_URL}api/user`;
 
     const nameRegex = /[a-zA-Z가-힣]{2,20}$/;
     const emailRegex = /^([a-z0-9+_.-]+)@([\da-z+-]+)\.([a-z\.]{2,6})$/;
@@ -52,7 +53,7 @@ function UserForm({id, user}) {
         e.preventDefault();
         // console.log(userFormValue);
         if(user) {
-            url = `http://localhost:8080/api/user/update/${id}`;
+            url = `${API_URL}api/user/update/${id}`;
             postUser();
         } else {
             postUser();
@@ -62,7 +63,7 @@ function UserForm({id, user}) {
     const delUserSubmit = () => {
         if(user) {
             if(window.confirm('정말 삭제하시겠습니까?')) {
-                axios.delete(`http://localhost:8080/api/user/del/${id}`)
+                axios.delete(`${API_URL}api/user/del/${id}`)
                 .then(console.log("delete"))
                 .then(
                     navigate('/')

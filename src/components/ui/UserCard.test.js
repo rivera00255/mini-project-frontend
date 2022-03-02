@@ -13,8 +13,8 @@ describe('User Card 고객 정보 테스트', () => {
         );
 
         // eslint-disable-next-line testing-library/await-async-query
-        screen.findByText(/출생년도 : /i);
+        screen.findByText(/출생년도 : /);
         // eslint-disable-next-line testing-library/await-async-query
-        screen.findByText(/성 별 : /i);
+        screen.findByText(/성 별 : /);
     })
 })
