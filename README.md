@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+###### 한국표준협회 클라우드 과정 1인 CRUD 프로젝트    
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    npm install   
+    npm start   
 
-## Available Scripts
+Visual Studio Code, IntelliJ   
+HTML, CSS, React, SpringBoot, JPA, MySQL   
 
-In the project directory, you can run:
+#### 요약   
+고객의 이름, 이메일, 성별, 출생년도를 입력받아 저장하고 조회.   
+중복되는 이메일은 등록할 수 없으며 정보 수정, 삭제가 가능함.   
 
-### `npm start`
+#### 내용
+Bootstrap과 HTML, CSS로 반응형 화면 구현.   
+고객의 정보 등록, 수정, 조회, 삭제가 가능한 CRUD 구현.   
+정규 표현식을 이용해 유효성 검증 및 중복되는 이메일 등록 불가 처리.   
+JPA와 REST API로 MySQL DB에 데이터 처리.   
+프론트엔드와 백엔드, 풀스택 서비스 1인 구현.   
+react-testing-library를 이용해 리액트 테스트 진행.   
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![screen_capture_01](https://user-images.githubusercontent.com/93629526/167411531-0b99ce8e-800d-4388-b38d-4714bb1eef41.jpg)
+![screen_capture_02](https://user-images.githubusercontent.com/93629526/167411553-c709e712-f321-494c-be54-f1ad93d01378.jpg)
+![screen_capture_03](https://user-images.githubusercontent.com/93629526/167411568-ee5452f6-1181-49c4-adb2-f7fab6364d28.jpg)
+![screen_capture_04](https://user-images.githubusercontent.com/93629526/167411578-7c0b4457-f2a1-4e5a-ab75-ac1928135fd1.jpg)
